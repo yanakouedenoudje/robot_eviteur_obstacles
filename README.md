@@ -9,7 +9,7 @@ Le robot navigue de manière autonome en détectant et en évitant les obstacles
 ## 🛠️ Fonctions Principales
 
 - **Navigation & Évitement d'Obstacles** : Détection de présence d'obstacle (< 15 cm), balayage angulaire (0° / 180°) pour évaluer la trajectoire la plus dégagée et prise de décision de pivotement automatique.
-- **Modèle de Calibration Ultrason** : Correction expérimentale des mesures de distance par régression linéaire ($d_{predict} = a \times d + b$).
+- **Modèle de Calibration Ultrason** : Correction expérimentale des mesures de distance par régression linéaire ($y_{predict} = a \times x + b$).
 - **Surveillance Environnementale** : Lecture de la température et de l'humidité via le capteur DHT11.
 - **Affichage LCD I2C** : Visualisation en temps réel des données environnementales et gestion des erreurs de capteur.
 - **Architecture Modulaire C++** : Code propre, encapsulé en classes distinctes pour chaque composant matériel.
